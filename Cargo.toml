@@ -1,0 +1,6 @@
+[workspace]
+members = ["texcrunch"]
+
+[profile.release]
+debug = false
+lto = "thin"

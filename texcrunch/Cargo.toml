@@ -1,0 +1,11 @@
+[package]
+name = "texcrunch"
+version = "0.1.0"
+authors = ["Connor Fitzgerald <connorwadefitzgerald@gmail.com>"]
+edition = "2018"
+description = "Abstraction layer and rust bindings for BC1 (DXT1), BC3 (DXT5), BC4 (RGTC1), BC5 (RGTC2), BC6H (BPTC float), BC7 (BPTC unorm), ETC1, and ASTC encoders"
+readme = "README.md"
+repository = "https://github.com/BVE-Reborn/texcrunch"
+license = "MIT OR Apache-2.0 OR Zlib"
+keywords = []
+categories = []
