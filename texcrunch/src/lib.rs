@@ -1,0 +1,1 @@
+//! Abstraction layer and rust bindings for BC1 (DXT1), BC3 (DXT5), BC4 (RGTC1), BC5 (RGTC2), BC6H (BPTC float), BC7 (BPTC unorm), ETC1, and ASTC encoders. 
