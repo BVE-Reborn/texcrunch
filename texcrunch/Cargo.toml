@@ -11,8 +11,11 @@ keywords = []
 categories = []
 
 [features]
-default = ["bc7e"]
+default = ["bc7e", "bc7enc", "squish"]
 bc7e = ["bc7e-sys"]
+bc7enc = ["bc7enc-sys"]
 
 [dependencies]
 bc7e-sys = { version = "0.1", path = "../bc7e-sys", optional = true }
+bc7enc-sys = { version = "0.1", path = "../bc7enc-sys", optional = true }
+squish = { version = "1.0.0", optional = true }

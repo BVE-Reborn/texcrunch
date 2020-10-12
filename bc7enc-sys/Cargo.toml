@@ -1,0 +1,24 @@
+[package]
+name = "bc7enc-sys"
+version = "0.1.0"
+authors = ["Connor Fitzgerald <connorwadefitzgerald@gmail.com>"]
+edition = "2018"
+description = "Rust bindings to the bc7e ISPC BC7 encoder."
+repository = "https://github.com/BVE-Reborn/texcrunch"
+license = "MIT"
+keywords = []
+categories = []
+
+exclude = [
+    "bc7enc",
+]
+include = [
+    "bc7enc/bc7enc.c"
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build-dependencies]
+cc = "1"

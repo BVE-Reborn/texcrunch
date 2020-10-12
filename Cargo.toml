@@ -1,5 +1,5 @@
 [workspace]
-members = ["texcrunch", "bc7e-sys"]
+members = ["texcrunch", "bc7e-sys", "bc7enc-sys"]
 
 [profile.release]
 debug = false
