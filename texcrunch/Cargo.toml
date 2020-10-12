@@ -9,3 +9,10 @@ repository = "https://github.com/BVE-Reborn/texcrunch"
 license = "MIT OR Apache-2.0 OR Zlib"
 keywords = []
 categories = []
+
+[features]
+default = ["bc7e"]
+bc7e = ["bc7e-sys"]
+
+[dependencies]
+bc7e-sys = { version = "0.1", path = "../bc7e-sys", optional = true }

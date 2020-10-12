@@ -1,0 +1,3 @@
+[submodule "bc7e"]
+	path = bc7e-sys/bc7e
+	url = git@github.com:BinomialLLC/bc7e.git

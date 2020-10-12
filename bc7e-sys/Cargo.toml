@@ -1,0 +1,27 @@
+[package]
+name = "bc7e-sys"
+version = "0.1.0"
+authors = ["Connor Fitzgerald <connorwadefitzgerald@gmail.com>"]
+edition = "2018"
+description = "Rust bindings to the bc7e ISPC BC7 encoder."
+repository = "https://github.com/BVE-Reborn/texcrunch"
+license = "Apache-2.0"
+keywords = []
+categories = []
+
+exclude = [
+    "bc7e",
+]
+include = [
+    "bc7e/bc7e.ispc"
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ispc = "1"
+
+[build-dependencies]
+ispc = "1"
+
+
