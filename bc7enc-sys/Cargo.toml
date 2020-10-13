@@ -3,9 +3,9 @@ name = "bc7enc-sys"
 version = "0.1.0"
 authors = ["Connor Fitzgerald <connorwadefitzgerald@gmail.com>"]
 edition = "2018"
-description = "Rust bindings to the bc7e ISPC BC7 encoder."
+description = "Rust bindings to the bc7enc BC1, BC3, BC4, BC5, and BC7 encoder."
 repository = "https://github.com/BVE-Reborn/texcrunch"
-license = "MIT"
+license = "MIT OR Unlicense"
 keywords = []
 categories = []
 
@@ -13,6 +13,7 @@ exclude = [
     "bc7enc",
 ]
 include = [
+    "bc7enc/rgbcx.h",
     "bc7enc/bc7enc.c"
 ]
 
@@ -21,4 +22,5 @@ include = [
 [dependencies]
 
 [build-dependencies]
+bindgen = "0.53"
 cc = "1"

@@ -11,5 +11,7 @@ fn main() {
             TargetISA::AVX512SKXi32x16,
         ])
         .file("bc7e/bc7e.ispc")
+        .wno_perf()
+        .woff()
         .compile("bc7e");
 }

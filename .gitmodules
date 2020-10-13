@@ -1,6 +1,9 @@
 [submodule "bc7e"]
 	path = bc7e-sys/bc7e
-	url = git@github.com:BinomialLLC/bc7e.git
+	url = https://github.com/BinomialLLC/bc7e.git
 [submodule "bc7enc"]
 	path = bc7enc-sys/bc7enc
-	url = git@github.com:richgel999/bc7enc.git
+	url = https://github.com/richgel999/bc7enc.git
+[submodule "ispc-texcomp"]
+	path = ispc-texcomp-sys/ispc-texcomp
+	url = https://github.com/BVE-Reborn/ISPCTextureCompressor.git

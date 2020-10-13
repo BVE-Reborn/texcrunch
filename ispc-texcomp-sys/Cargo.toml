@@ -1,27 +1,18 @@
 [package]
-name = "bc7e-sys"
+name = "ispc-texcomp-sys"
 version = "0.1.0"
 authors = ["Connor Fitzgerald <connorwadefitzgerald@gmail.com>"]
 edition = "2018"
-description = "Rust bindings to the bc7e ISPC BC7 encoder."
+description = "Rust bindings to the ispc-texcomp BC1, BC3, BC6H, BC7, ETC1, and ASTC encoder."
 repository = "https://github.com/BVE-Reborn/texcrunch"
-license = "Apache-2.0"
+license = "MIT"
 keywords = []
 categories = []
-
-exclude = [
-    "bc7e",
-]
-include = [
-    "bc7e/bc7e.ispc"
-]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-ispc = "1.0.9"
 
 [build-dependencies]
+cc = "1"
 ispc = "1.0.9"
-
-
